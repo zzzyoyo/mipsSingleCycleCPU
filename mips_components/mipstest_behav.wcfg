@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="mipstest_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="mipstest" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="234001fs"></ZoomEndTime>
+      <Cursor1Time time="1000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="228"></NameColumnWidth>
+      <ValueColumnWidth column_width="109"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="39" />
+   <wvobject fp_name="/mipstest/ALU_TB/a" type="array">
+      <obj_property name="ElementShortName">a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mipstest/ALU_TB/b" type="array">
+      <obj_property name="ElementShortName">b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">b[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mipstest/ALU_TB/aluControl" type="array">
+      <obj_property name="ElementShortName">aluControl[2:0]</obj_property>
+      <obj_property name="ObjectShortName">aluControl[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mipstest/ALU_TB/aluResult" type="array">
+      <obj_property name="ElementShortName">aluResult[31:0]</obj_property>
+      <obj_property name="ObjectShortName">aluResult[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mipstest/Adder_TB/a" type="array">
+      <obj_property name="ElementShortName">a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mipstest/Adder_TB/b" type="array">
+      <obj_property name="ElementShortName">b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">b[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mipstest/Adder_TB/y" type="array">
+      <obj_property name="ElementShortName">y[31:0]</obj_property>
+      <obj_property name="ObjectShortName">y[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mipstest/DMEM_TB/address" type="array">
+      <obj_property name="ElementShortName">address[31:0]</obj_property>
+      <obj_property name="ObjectShortName">address[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mipstest/DMEM_TB/writeData" type="array">
+      <obj_property name="ElementShortName">writeData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">writeData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mipstest/DMEM_TB/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mipstest/DMEM_TB/we" type="logic">
+      <obj_property name="ElementShortName">we</obj_property>
+      <obj_property name="ObjectShortName">we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mipstest/DMEM_TB/readData" type="array">
+      <obj_property name="ElementShortName">readData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mipstest/IMEM_TB/address" type="array">
+      <obj_property name="ElementShortName">address[5:0]</obj_property>
+      <obj_property name="ObjectShortName">address[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mipstest/IMEM_TB/instr" type="array">
+      <obj_property name="ElementShortName">instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mipstest/MUX2_TB/d0" type="array">
+      <obj_property name="ElementShortName">d0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">d0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mipstest/MUX2_TB/d1" type="array">
+      <obj_property name="ElementShortName">d1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">d1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mipstest/MUX2_TB/s" type="logic">
+      <obj_property name="ElementShortName">s</obj_property>
+      <obj_property name="ObjectShortName">s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mipstest/MUX2_TB/y" type="array">
+      <obj_property name="ElementShortName">y[31:0]</obj_property>
+      <obj_property name="ObjectShortName">y[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mipstest/PC_TB/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mipstest/PC_TB/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mipstest/PC_TB/nextPC" type="array">
+      <obj_property name="ElementShortName">nextPC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">nextPC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mipstest/PC_TB/currPC" type="array">
+      <obj_property name="ElementShortName">currPC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">currPC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mipstest/PC_TB/WIDTH" type="array">
+      <obj_property name="ElementShortName">WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mipstest/PC_TB/PERIOD" type="array">
+      <obj_property name="ElementShortName">PERIOD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PERIOD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mipstest/RF_TB/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mipstest/RF_TB/regWriteEnable" type="logic">
+      <obj_property name="ElementShortName">regWriteEnable</obj_property>
+      <obj_property name="ObjectShortName">regWriteEnable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mipstest/RF_TB/regWriteAddress" type="array">
+      <obj_property name="ElementShortName">regWriteAddress[4:0]</obj_property>
+      <obj_property name="ObjectShortName">regWriteAddress[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mipstest/RF_TB/regWriteData" type="array">
+      <obj_property name="ElementShortName">regWriteData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">regWriteData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mipstest/RF_TB/RsAddress" type="array">
+      <obj_property name="ElementShortName">RsAddress[4:0]</obj_property>
+      <obj_property name="ObjectShortName">RsAddress[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mipstest/RF_TB/RtAddress" type="array">
+      <obj_property name="ElementShortName">RtAddress[4:0]</obj_property>
+      <obj_property name="ObjectShortName">RtAddress[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mipstest/RF_TB/RsData" type="array">
+      <obj_property name="ElementShortName">RsData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RsData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mipstest/RF_TB/RtData" type="array">
+      <obj_property name="ElementShortName">RtData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RtData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mipstest/RF_TB/PERIOD" type="array">
+      <obj_property name="ElementShortName">PERIOD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PERIOD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mipstest/SE_TB/imm" type="array">
+      <obj_property name="ElementShortName">imm[15:0]</obj_property>
+      <obj_property name="ObjectShortName">imm[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mipstest/SE_TB/signext_imm" type="array">
+      <obj_property name="ElementShortName">signext_imm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">signext_imm[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mipstest/SL2_TB/x" type="array">
+      <obj_property name="ElementShortName">x[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mipstest/SL2_TB/y" type="array">
+      <obj_property name="ElementShortName">y[31:0]</obj_property>
+      <obj_property name="ObjectShortName">y[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mipstest/SL2_TB/x" type="array">
+      <obj_property name="ElementShortName">x[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mipstest/SL2_TB/y" type="array">
+      <obj_property name="ElementShortName">y[31:0]</obj_property>
+      <obj_property name="ObjectShortName">y[31:0]</obj_property>
+   </wvobject>
+</wave_config>
